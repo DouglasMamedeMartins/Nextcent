@@ -652,12 +652,36 @@ header nav ul li a:focus-visible {
     flex-direction: column;
   }
 
+  .home-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .home-content-left h1,
+  h2 {
+    font-size: 3rem;
+  }
+
+  .home-content-left p {
+    font-size: 1.2rem;
+  }
+
+  .clients-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .clients-images img {
+    width: 4rem;
+  }
+
   .page-help-content-right {
     grid-template-columns: 1fr;
   }
 
   .page-help-content-left h2,
-  .page-help-content-left span {
+  .page-help-content-left span,
+  .page-help-content-left p {
     text-align: center;
   }
 
@@ -666,10 +690,31 @@ header nav ul li a:focus-visible {
     align-items: center;
   }
 
+  .card-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .card-content h3,
+  .card-content span,
+  .customers .container,
+  .calender {
+    text-align: center;
+  }
+
+  .customers-icons {
+    flex-direction: column;
+  }
+
   .community-description-cards {
     flex-direction: column;
     align-items: center;
     gap: 6rem;
+  }
+
+  .about-content-right a,
+  .calender-content-right a {
+    margin: auto;
   }
 
   .footer-right-container {
